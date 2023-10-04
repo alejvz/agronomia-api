@@ -13,7 +13,7 @@ app = FastAPI()
 # Add the CORS middleware to allow requests from your React app's domain
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Replace with the actual domain of your React app
+    allow_origins=["https://agronomia.vercel.app/"],  # Replace with the actual domain of your React app
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
